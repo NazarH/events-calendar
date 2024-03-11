@@ -17,6 +17,7 @@
 - Use command to access to ngrok server (in command line)
 - Add generated adress, from ngrok, to method "setWebhook()" in Telegram/BotController
 - Subscribe to bot - https://t.me/EventRemindersNotificationBot & send message with registered email
+- Mailtrap was used to send mail locally (need to register and attach it to the .env file)
 - php artisan schedule:work
 
 ## EventsCalendar. Execution time
