@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.header-container{
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    margin-bottom: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    flex: 1 1 auto;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* ============================================================ */
+
+@media (max-width: 1199.98px) {
+    [class*="__container"]{
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 990.98px) {
+    [class*="__container"]{
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    [class*="__container"]{
+        max-width: none;
+        padding: 0px 15px;
+    }
+}
+
+/* =========== */
+
+.form-block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-delete{
+    margin-top: 5px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input{
+    margin-bottom: 5px;
+}
+
+.form select{
+    margin-bottom: 5px;
+}
+
+.form-top{
+    display: flex;
+}
+
+.fc-event-container{
+    cursor: pointer;
+}
+
+
+/* ============================================================ */
+
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+
+.menu-item{
+    padding: 5px;
+}
+
+.menu-item:hover{
+    color: black;
+    background-color: #E0E0E0;
+}
+
+.header{
+    padding: 25px 0px;
+}
+
+.header__logo{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* ============================================================ */
+
+.hidden{
+    display: none;
+}
+
+
+/* ============================================================ */
+
+.done-form{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.done-form div{
+    margin-left: 5px;
+}
+
+.form-title{
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
